@@ -2,3 +2,4 @@
 src/
 *.tsx
 *.map
+.github

@@ -133,59 +133,58 @@ interface ToggleButtonProps {
   menuBorderRadius?: string;
 
   /** 
-   * Size of the Text. String type, CSS units such as 'px', 'em', '%'.
-   * Example: '160px', '20%', '10rem'
+   * Size of the Text. String type, CSS units such as 'px', 'em', '%' or 'rem'.
+   * Example: '16px', '20%', '10rem'
    */
   fontSize?: string;
 
   /** 
-   * Size of the Icon. String type, CSS units such as 'px', 'em', '%'.
-   * Example: '160px', '20%', '10rem'
+   * Size of the Icon. String type, CSS units such as 'px', 'em', '%' or 'rem'.
+   * Example: '16px', '20%', '10rem'
    */
   iconSize?: string;
 
   /** 
-   * Width of the button/menu. String type, CSS units such as 'px', 'em', '%'.
+   * Width of the button/menu. String type, CSS units such as 'px', 'em', '%' or 'rem'.
    * Example: '160px', '20%', '10rem'
    */
   width?: string;
 
   /** 
-   * Height of the button/menu. String type, CSS units such as 'px', 'em', '%'.
+   * Height of the button/menu. String type, CSS units such as 'px', 'em', '%' or 'rem'.
    * Example: '155px', '20%', '10rem'
    */
   height?: string;
 
   /** 
-   * Padding inside the button/menu. String type, CSS units such as 'px', 'rem', '%'.
+   * Padding inside the button/menu. String type, CSS units such as 'px', 'rem', '%' or 'em'.
    * Example: '0.7rem', '10px', '5%'
    */
   padding?: string;
 
   /** 
-   * Gap between elements inside the menu. String type, CSS units such as 'px', 'em', '%'.
+   * Gap between elements inside the menu. String type, CSS units such as 'px', 'em', '%' or 'rem'.
    * Example: '1rem', '10px', '5%'
    */
   gap?: string;
 
   /** 
-   * Horizontal position of the button/menu. String type, CSS units such as 'px', '%', 'vw'.
+   * Horizontal position of the button/menu. String type, CSS units such as 'px', '%', 'vw', 'em'.
    * Example: '20px', '10%', '5vw'
    */
   positionX?: string;
 
   /** 
-   * Vertical position of the button/menu. String type, CSS units such as 'px', '%', 'vh'.
+   * Vertical position of the button/menu. String type, CSS units such as 'px', '%', 'vh', 'em'.
    * Example: '30px', '10%', '5vh'
    */
   positionY?: string;
 
   /** 
-   * Index of the button/menu. String type, CSS units such as 'number'.
+   * Index of the button/menu. Number type.
    * Example: '1', '100'
    */
   zIndex?: number;
 }
-
 
 export type { Theme, ThemeContextProps, ThemeProvidersProps, ToggleButtonProps }
