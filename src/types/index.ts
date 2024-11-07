@@ -1,17 +1,46 @@
 import { ReactNode } from "react"
 
+/**
+ * Theme typ. String type, Mode values ('light', 'dark', 'system').
+ */
 interface Theme {
   mode: 'light' | 'dark' | 'system'
 }
 
+/**
+ * Props for the ThemeContextProps
+ */
 interface ThemeContextProps {
+  /** 
+  * ReactNode.
+  */
   theme: Theme
+
+  /** 
+  * toggleTheme except parameter. String type, value(mode: 'light' | 'dark' | 'system').
+  */
   toggleTheme: (mode: 'light' | 'dark' | 'system') => void
 }
 
+/**
+ * Props for the ThemeProvidersProps provider
+ */
 interface ThemeProvidersProps {
+  /** 
+  * ReactNode.
+  */
   children: ReactNode;
+
+  /** 
+   * Metatag color for light mode. String type, Color values (e.g., hex, rgba).
+   * Example: '#ffffff' or 'rgb(255,255,255)'
+   */
   light?: string;
+
+  /** 
+   * Metatag color for dark mode. String type, Color values (e.g., hex, rgba).
+   * Example: '#222222' or 'rgb(34,34,34)'
+   */
   dark?: string;
 }
 
