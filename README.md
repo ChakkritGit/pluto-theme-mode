@@ -94,19 +94,33 @@ import { useTheme } from 'pluto-theme-mode' // import useTheme
 const { theme } = useTheme() // destructure theme from useTheme hook
 ```
 
-**inline css**
+**Inline Style CSS**
 
 ```javascript
-// This code renders a <div> and a <span> element with dynamic styling based on the current theme mode (dark or light).
-// The background color of the <div> and the text color of the <span> will change depending on whether the theme mode is 'dark' or 'light'.
-// If the theme mode is 'dark', the background will be '#333' (dark gray) and the text color will be '#fff' (white).
-// If the theme mode is 'light', the background will be '#fff' (white) and the text color will be '#333' (dark gray).
+
+javascript
+Copy code
+// This code renders a <div> and a <span> element, applying dynamic styling based on the current theme mode (either 'dark' or 'light').
+// In the first <div> and <span> block, the background and text colors are set directly using color codes.
+// In the second <div> and <span> block, the classes 'backgroundDark', 'backgroundLight', 'colorLight', and 'colorDark' are used 
+// instead, allowing for centralized styling through CSS classes.
+// When the theme mode is 'dark':
+// - The first <div> has a background of '#333' (dark gray) and the text color of the <span> is '#fff' (white).
+// - The second <div> and <span> apply 'backgroundDark' and 'colorLight' classes, using styles defined in CSS.
+// When the theme mode is 'light':
+// - The first <div> has a background of '#fff' (white) and the text color of the <span> is '#333' (dark gray).
+// - The second <div> and <span> apply 'backgroundLight' and 'colorDark' classes.
+
 <div style={{ backgroundColor: theme.mode === 'dark' ? '#333' : '#fff' }}>
   <span style={{ color: theme.mode === 'dark' ? '#fff' : '#333' }}>Inline CSS</span>
 </div>
+
+<div className={theme.mode === 'dark' ? 'backgroundDark' : 'backgroundLight'}>
+  <span className={theme.mode === 'dark' ? 'colorLight' : 'colorDark'}>Inline CSS</span>
+</div>
 ```
 
-**inline css**
+**Tailwind CSS**
 
 ```javascript
 // This code applies dynamic styling to a <div> and a <span> element based on the current theme mode (dark or light) using TailwindCSS classes.
@@ -119,7 +133,7 @@ const { theme } = useTheme() // destructure theme from useTheme hook
 </div>
 ```
 
-**Styled-components**
+**Styled Components**
 
 ```javascript
 import styled from 'styled-components';
