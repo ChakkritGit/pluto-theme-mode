@@ -1,24 +1,12 @@
-import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react'
+import React, { createContext, useContext, useState, useEffect } from 'react'
 import { ThemeProvider as StyledThemeProvider } from 'styled-components'
-
-interface Theme {
-  mode: 'light' | 'dark' | 'system'
-}
-
-interface ThemeContextProps {
-  theme: Theme
-  toggleTheme: (mode: 'light' | 'dark' | 'system') => void
-}
-
-interface ThemeProvidersProps {
-  children: ReactNode
-}
+import { Theme, ThemeContextProps, ThemeProvidersProps } from '../types'
 
 const STORAGE_KEY = 'themeMode'
 
 const ThemeContext = createContext<ThemeContextProps | undefined>(undefined)
 
-const PlutoProvider: React.FC<ThemeProvidersProps> = ({ children }) => {
+const PlutoProvider: React.FC<ThemeProvidersProps> = ({ children, dark, light }) => {
   const [theme, setTheme] = useState<Theme>(() => {
     const storedTheme = localStorage.getItem(STORAGE_KEY) as Theme['mode']
     return { mode: storedTheme || 'system' }
@@ -54,7 +42,7 @@ const PlutoProvider: React.FC<ThemeProvidersProps> = ({ children }) => {
 
   useEffect(() => {
     const themeColorMetaTag = document.querySelector('meta[name="theme-color"]')
-    const currentColor = theme.mode === 'light' ? '#fcfcfc' : '#2f2f2f'
+    const currentColor = theme.mode === 'light' ? light || '#ffffff' : dark || '#222222'
 
     if (themeColorMetaTag) {
       themeColorMetaTag.setAttribute('content', currentColor)

@@ -1,3 +1,20 @@
+import { ReactNode } from "react"
+
+interface Theme {
+  mode: 'light' | 'dark' | 'system'
+}
+
+interface ThemeContextProps {
+  theme: Theme
+  toggleTheme: (mode: 'light' | 'dark' | 'system') => void
+}
+
+interface ThemeProvidersProps {
+  children: ReactNode;
+  light?: string;
+  dark?: string;
+}
+
 /**
  * Props for the ToggleButton component
  */
@@ -142,4 +159,4 @@ interface ToggleButtonProps {
 }
 
 
-export type { ToggleButtonProps }
+export type { Theme, ThemeContextProps, ThemeProvidersProps, ToggleButtonProps }
