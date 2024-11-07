@@ -11,6 +11,9 @@ export const WrapperSwitch = styled.div`
 
 export const IconWrapper = styled.div<{ $active?: string, $iconSize?: string }>`
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
 
   &>svg {
