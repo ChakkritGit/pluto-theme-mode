@@ -11,8 +11,6 @@ Pluto Theme Mode supports inline class, Tailwind CSS, and styled-components, pro
 
 ![style: styled-components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white) ![style: Tailwind CSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 
----
-
 ## Quickstart
 
 **1. Install**
@@ -159,8 +157,6 @@ const StyledSpan = styled.span`
     <img alt="styled-components" src="https://raw.githubusercontent.com/ChakkritGit/pluto-theme-mode/refs/heads/main/.github/workflows/g2.gif"  />
   </a>
 </div>
-
----
 
 ## License
 
