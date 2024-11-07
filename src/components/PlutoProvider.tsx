@@ -18,7 +18,7 @@ const STORAGE_KEY = 'themeMode'
 
 const ThemeContext = createContext<ThemeContextProps | undefined>(undefined)
 
-const ThemeProviders: React.FC<ThemeProvidersProps> = ({ children }) => {
+const PlutoProvider: React.FC<ThemeProvidersProps> = ({ children }) => {
   const [theme, setTheme] = useState<Theme>(() => {
     const storedTheme = localStorage.getItem(STORAGE_KEY) as Theme['mode']
     return { mode: storedTheme || 'system' }
@@ -88,9 +88,9 @@ const ThemeProviders: React.FC<ThemeProvidersProps> = ({ children }) => {
 const useTheme = () => {
   const context = useContext(ThemeContext)
   if (!context) {
-    throw new Error('useTheme must be used within a ThemeProviders')
+    throw new Error('useTheme must be used within a PlutoProvider')
   }
   return context
 }
 
-export { ThemeProviders, useTheme }
+export { PlutoProvider, useTheme }

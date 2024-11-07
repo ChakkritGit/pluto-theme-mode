@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { TbMoon, TbSun, TbSunMoon } from "react-icons/tb"
-import { useTheme } from './ThemeProvider'
+import { useTheme } from './PlutoProvider'
 import { IconWrapper, ModeOption, WrapperMenu, WrapperSwitch } from '../style/style'
 import { ToggleButtonProps } from '../types'
 

@@ -1,2 +1,2 @@
-export { ThemeProviders, useTheme } from './src/components/ThemeProvider'
+export { PlutoProvider, useTheme } from './src/components/PlutoProvider'
 export { default as ToggleButton } from './src/components/ToggleButton'
