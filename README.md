@@ -1,6 +1,6 @@
 # Pluto Theme Mode [![tag - 1.0.0](https://img.shields.io/badge/tag-1.0.0-1271dc?logo=github)](https://www.npmjs.com/package/pluto-theme-mode?activeTab=versions)
 
-Pluto Theme Mode supports inline class, Tailwind CSS, and styled-components, providing flexible styling options for theme-based designs.
+Pluto Theme Mode supports inline class, Tailwind CSS, and styled-components, providing flexible styling options for theme-based designs. 🖌️
 
 - **Cross-platform** - Support for:
   - ES6 and above to support ESM
@@ -30,7 +30,7 @@ import { PlutoProvider } from 'pluto-theme-mode'; // import the provider
 </PlutoProvider>
 ```
 
-You can also add props to the provider, including props to set the `meta` tag for `theme-color`. Here is an example of how to use it: ☀️🌙
+You can also add props to the provider, including props to set the `meta` tag for `theme-color`, with values specified in either HEX or RGB format, as shown in the example abov. ☀️🌙
 
 ```javascript
 <PlutoProvider dark='#000' light='#FFF'>
@@ -38,12 +38,10 @@ You can also add props to the provider, including props to set the `meta` tag fo
 </PlutoProvider>
 ```
 
-You can also add props to the provider, including props to set the `meta` tag for `theme-color`, with values specified in either HEX or RGB format, as shown in the example abov. 🖌️
-
 **3. Add Toggle**
 
 ```javascript
-import { ToggleButton } from 'pluto-theme-mode' // import ToggleButton
+import { ToggleButton } from 'pluto-theme-mode'; // import ToggleButton
 
 // call the ToggleButton as appropriate
 <ToggleButton />
@@ -89,7 +87,7 @@ import { ToggleButton } from 'pluto-theme-mode' // import ToggleButton
 **4. Usage**
 
 ```javascript
-import { useTheme } from 'pluto-theme-mode' // import useTheme
+import { useTheme } from 'pluto-theme-mode'; // import useTheme
 
 const { theme } = useTheme() // destructure theme from useTheme hook
 ```
