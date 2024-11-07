@@ -1,6 +1,6 @@
 # Pluto Theme Mode [![tag - 1.0.0](https://img.shields.io/badge/tag-1.0.0-1271dc?logo=github)](https://www.npmjs.com/package/pluto-theme-mode?activeTab=versions)
 
-Pluto Theme Mode supports inline class, Tailwind CSS, and styled-components, providing flexible styling options for theme-based designs.
+Pluto Theme Mode supports inline class, Tailwind CSS, and styled-components, providing flexible styling options for theme-based designs. 🌃🌇
 
 - **Cross-platform** - Support for:
   - ES6 and above to support ESM
