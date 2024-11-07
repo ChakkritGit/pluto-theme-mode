@@ -14,7 +14,7 @@ export default function ToggleButton({
   backgroundColorLight = '#ffffff',
   backgroundColorDark = '#222222',
   borderColorLight = '#e5e7e9',
-  borderColorDark = '#3b3b3b',
+  borderColorDark = '#222222',
   colorLight = '#e5e7e9',
   colorDark = '#3b3b3b',
   activeColor = '#6495ED',

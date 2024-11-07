@@ -35,8 +35,8 @@ export const WrapperMenu = styled.div<{ $colorLight?: string, $colorDark?: strin
   right: ${props => props.$positionX};
   padding: ${props => props.$padding};
   background-color: ${props => props.theme.mode === 'dark' ? props.$backgroundDark : props.$backgroundLight};
-  border: 1px solid ${props => props.theme.mode === 'dark' ? props.$borderColorDark : props.$borderColorLight};
-  box-shadow: 5px 10px 15px -10px ${props => props.theme.mode === 'dark' ? `rgba(50, 50, 50, .5)` : `rgba(0, 0, 0, .20)`};
+  border: 1.5px solid ${props => props.theme.mode === 'dark' ? props.$borderColorDark : props.$borderColorLight};
+  box-shadow: ${props => props.theme.mode === 'dark' ? `5px 10px 25px -10px rgba(34, 34, 34, 0.7)` : `5px 10px 15px -10px rgba(0, 0, 0, .20)`};
   color: ${props => props.theme.mode === 'dark' ? props.$colorLight : props.$colorDark};
   border-radius: ${props => props.$borderRadius};
   z-index: ${props => props.$zIndex};
