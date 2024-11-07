@@ -51,6 +51,12 @@ import { ToggleButton } from 'pluto-theme-mode' // import ToggleButton
 <ToggleButton />
 ```
 
+<div align="start">
+  <a href="https://github.com/ChakkritGit/pluto-theme-mode/blob/main/.github/workflows/toggle.png">
+    <img alt="styled-components" src="https://raw.githubusercontent.com/ChakkritGit/pluto-theme-mode/refs/heads/main/.github/workflows/toggle.png" height="150px" />
+  </a>
+</div>
+
 📄 Additionally, you can also call props, and the details will be explained below.
 
 | Props                    | Details                                       | Values                                            | Type                  |
@@ -83,8 +89,6 @@ import { ToggleButton } from 'pluto-theme-mode' // import ToggleButton
 🎨 You can decorate it as desired.
 
 **4. Usage**
-
-
 
 ```javascript
 import { useTheme } from 'pluto-theme-mode' // import useTheme
@@ -136,6 +140,25 @@ const StyledSpan = styled.span`
   <StyledSpan>Styled components</StyledSpan>
 </StyledDiv>
 ```
+
+**Example image**
+
+- **Toggle**
+  - Light
+  - Dark
+  - System
+
+<div align="center">
+  <a href="https://github.com/ChakkritGit/pluto-theme-mode/blob/main/.github/workflows/g1.gif">
+    <img alt="styled-components" src="https://raw.githubusercontent.com/ChakkritGit/pluto-theme-mode/refs/heads/main/.github/workflows/g1.gif"  />
+  </a>
+</div>
+
+<div align="center">
+  <a href="https://github.com/ChakkritGit/pluto-theme-mode/blob/main/.github/workflows/g2.gif">
+    <img alt="styled-components" src="https://raw.githubusercontent.com/ChakkritGit/pluto-theme-mode/refs/heads/main/.github/workflows/g2.gif"  />
+  </a>
+</div>
 
 ---
 
