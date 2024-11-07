@@ -21,7 +21,7 @@ export default function ToggleButton({
   cardBorderRadius = '24px',
   menuBorderRadius = '16px',
   height = '155px',
-  width = '160px',
+  width = 'max-content',
   padding = '.7rem',
   gap = '.5rem',
   positionX = '20px',
