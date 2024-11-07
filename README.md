@@ -1,6 +1,6 @@
 # Pluto Theme Mode [![tag - 1.0.0](https://img.shields.io/badge/tag-1.0.0-1271dc?logo=github)](https://www.npmjs.com/package/pluto-theme-mode?activeTab=versions)
 
-Pluto Theme Mode supports inline class, Tailwind CSS, and styled-components, providing flexible styling options for theme-based designs. 🖌️
+Pluto Theme Mode supports inline class, Tailwind CSS, and styled-components, providing flexible styling options for theme-based designs.
 
 - **Cross-platform** - Support for:
   - ES6 and above to support ESM
@@ -30,13 +30,15 @@ import { PlutoProvider } from 'pluto-theme-mode'; // import the provider
 </PlutoProvider>
 ```
 
-You can also add props to the provider, including props to set the `meta` tag for `theme-color`, with values specified in either HEX or RGB format, as shown in the example abov. ☀️🌙
+You can also add props to the provider, including props to set the `meta` tag for `theme-color`. Here is an example of how to use it: ☀️🌙
 
 ```javascript
 <PlutoProvider dark='#000' light='#FFF'>
   <App />
 </PlutoProvider>
 ```
+
+You can also add props to the provider, including props to set the `meta` tag for `theme-color`, with values specified in either HEX or RGB format, as shown in the example abov. 🖌️
 
 **3. Add Toggle**
 
