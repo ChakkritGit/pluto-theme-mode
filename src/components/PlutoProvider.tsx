@@ -1,5 +1,4 @@
 import React, { createContext, useContext, useState, useEffect } from 'react'
-import { ThemeProvider as StyledThemeProvider } from 'styled-components'
 import { Theme, ThemeContextProps, ThemeProvidersProps } from '../types'
 
 const STORAGE_KEY = 'themeMode'
@@ -66,9 +65,7 @@ const PlutoProvider: React.FC<ThemeProvidersProps> = ({ children, dark, light })
 
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
-      <StyledThemeProvider theme={{ mode: theme.mode }}>
-        {children}
-      </StyledThemeProvider>
+      {children}
     </ThemeContext.Provider>
   )
 }
