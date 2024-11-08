@@ -7,7 +7,7 @@ pluto-theme-mode is a lightweight and versatile theme provider library for React
   🪄 ESM
   🎨 Inline CSS, Tailwind CSS, Styled-Components
   ⚡ Chrome, Safari, Firefox, Edge browsers
-⌨️ TypeScript
+  ⌨️ TypeScript
 
 ![style: styled-components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white) ![style: Tailwind CSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 
