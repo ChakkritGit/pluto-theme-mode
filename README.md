@@ -22,9 +22,9 @@ npm install pluto-theme-mode
 **2. Add Provider**
 
 ```javascript
-import { PlutoProvider } from 'pluto-theme-mode'; // import the provider
+import { PlutoProvider } from 'pluto-theme-mode'; // import the PlutoProvider
 
-// wrap the App with provider
+// wrap the App with PlutoProvider
 <PlutoProvider>
   <App />
 </PlutoProvider>
@@ -131,6 +131,25 @@ const { theme } = useTheme() // destructure theme from useTheme hook
 ```
 
 **Styled Components**
+
+```javascript
+import { useTheme } from 'pluto-theme-mode' // import useTheme
+import { ThemeProvider } from 'styled-components' // import provider from styled components
+
+const App = () => {
+  const { theme } = useTheme() // destructure theme from useTheme hook
+
+  return (
+    // wrap Children or jsx element with ThemeProvider
+    // use theme prop set theme with theme.mode
+    <ThemeProvider theme={{ mode: theme.mode }}>
+      {Children}
+    </ThemeProvider>
+  )
+}
+
+export default App
+```
 
 ```javascript
 import styled from 'styled-components';
