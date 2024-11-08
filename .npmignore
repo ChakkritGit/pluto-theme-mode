@@ -1,5 +1,17 @@
-# .npmignore
+# Ignore source files
 src/
+*.ts
 *.tsx
 *.map
-.github
+
+# Ignore GitHub workflows and settings
+.github/
+
+# Ignore TypeScript configuration files
+tsconfig*.json
+
+# Ignore test and documentation files (ถ้ามี)
+tests/
+docs/
+
+# อื่นๆ ที่ไม่ต้องการให้รวมไปใน package
