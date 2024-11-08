@@ -4,6 +4,10 @@ src/
 *.tsx
 *.map
 
+# Ignore Test configuration files
+jest*.ts
+jest*.js
+
 # Ignore GitHub workflows and settings
 .github/
 
@@ -11,7 +15,7 @@ src/
 tsconfig*.json
 
 # Ignore test and documentation files (ถ้ามี)
-tests/
+test/
 docs/
 
 # ไม่ให้ละเว้นไฟล์ใน dist/

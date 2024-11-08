@@ -97,9 +97,6 @@ const { theme } = useTheme() // destructure theme from useTheme hook
 **Inline Style CSS**
 
 ```javascript
-
-javascript
-Copy code
 // This code renders a <div> and a <span> element, applying dynamic styling based on the current theme mode (either 'dark' or 'light').
 // In the first <div> and <span> block, the background and text colors are set directly using color codes.
 // In the second <div> and <span> block, the classes 'backgroundDark', 'backgroundLight', 'colorLight', and 'colorDark' are used 
