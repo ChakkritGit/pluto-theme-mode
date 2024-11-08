@@ -140,10 +140,10 @@ const App = () => {
   const { theme } = useTheme() // destructure theme from useTheme hook
 
   return (
-    // wrap Children or jsx element with ThemeProvider
+    // wrap Component with ThemeProvider
     // use theme prop set theme with theme.mode
     <ThemeProvider theme={{ mode: theme.mode }}>
-      {Children}
+      {Component}
     </ThemeProvider>
   )
 }
