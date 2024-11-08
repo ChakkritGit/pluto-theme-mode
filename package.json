@@ -1,6 +1,6 @@
 {
   "name": "pluto-theme-mode",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "pluto-theme-mode is a lightweight and flexible theme provider library for React that makes switching between light and dark modes easy and seamless. Built with TypeScript, styled-components, and Context Hook, this library simplifies the process of managing theme states, allowing for a more intuitive and customizable theme experience. Ideal for developers who want to integrate dark mode functionality effortlessly, pluto-theme-mode provides a smooth and modern approach to theme switching.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
