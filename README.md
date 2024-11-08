@@ -4,12 +4,12 @@ pluto-theme-mode is a lightweight and versatile theme provider library for React
 
 <div style="text-align: left;">
   <strong>Feature support:</strong>
-  <ul style="list-style-type: none; padding: 0 0 0 .7rem;">
-    <li>✨ CommonJS</li>
-    <li>🪄 ESM</li>
-    <li>🎨 Inline CSS, Tailwind CSS, Styled-Components</li>
-    <li>⚡ Chrome, Safari, Firefox, Edge browsers</li>
-    <li>⌨️ TypeScript</li>
+  <ul style="padding: 0 0 0 .5rem;">
+    <li style="list-style-type: none;">✨ CommonJS</li>
+    <li style="list-style-type: none;">🪄 ESM</li>
+    <li style="list-style-type: none;">🎨 Inline CSS, Tailwind CSS, Styled-Components</li>
+    <li style="list-style-type: none;">⚡ Chrome, Safari, Firefox, Edge browsers</li>
+    <li style="list-style-type: none;">⌨️ TypeScript</li>
   </ul>
 </div>
 
