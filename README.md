@@ -2,12 +2,16 @@
 
 pluto-theme-mode is a lightweight and versatile theme provider library for React, designed to make switching between light and dark modes smooth and effortless. Built with TypeScript, styled-components, and Context Hook, it supports multiple styling approaches—including inline class, Tailwind CSS, and styled-components—offering flexible options for theme-based designs. Ideal for developers looking to add dark mode functionality seamlessly, pluto-theme-mode provides a modern, intuitive solution for managing theme states and creating customizable user experiences. 🌃🌇
 
-**Feature support**:
-  ✨ CommonJS
-  🪄 ESM
-  🎨 Inline CSS, Tailwind CSS, Styled-Components
-  ⚡ Chrome, Safari, Firefox, Edge browsers
-  ⌨️ TypeScript
+<div style="text-align: left;">
+  <strong>Feature support:</strong>
+  <ul style="list-style-type: none; padding: 0 0 0 .7rem;">
+    <li>✨ CommonJS</li>
+    <li>🪄 ESM</li>
+    <li>🎨 Inline CSS, Tailwind CSS, Styled-Components</li>
+    <li>⚡ Chrome, Safari, Firefox, Edge browsers</li>
+    <li>⌨️ TypeScript</li>
+  </ul>
+</div>
 
 ![style: styled-components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white) ![style: Tailwind CSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 
