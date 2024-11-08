@@ -67,7 +67,7 @@ import { ToggleButton } from 'pluto-theme-mode'; // import ToggleButton
 | **systemModeIcon**       | Icon for system mode. Can be an SVG or image. | `SVG`, `<img />`                                  | `ReactNode`           |
 | **backgroundColorDark**  | Background color for dark mode.               | `#000`, `rgb(0,0,0)`, `black`                     | `string`, `undefined` |
 | **backgroundColorLight** | Background color for light mode.              | `#FFF`, `rgb(255,255,255)`, `white`               | `string`, `undefined` |
-| **colorDark**            | Text color for dark mode.                     | `#000`, `rgb(0,0,0)` , `black`                   | `string`, `undefined` |
+| **colorDark**            | Text color for dark mode.                     | `#000`, `rgb(0,0,0)` , `black`                    | `string`, `undefined` |
 | **colorLight**           | Text color for light mode.                    | `#FFF`, `rgb(255,255,255)`, `white`               | `string`, `undefined` |
 | **borderColorDark**      | Border color for dark mode.                   | `#222`, `rgb(34,34,34)`, `grey`                   | `string`, `undefined` |
 | **borderColorLight**     | Border color for light mode.                  | `#222`, `rgb(34,34,34)`, `grey`                   | `string`, `undefined` |
