@@ -14,4 +14,5 @@ tsconfig*.json
 tests/
 docs/
 
-# อื่นๆ ที่ไม่ต้องการให้รวมไปใน package
+# ไม่ให้ละเว้นไฟล์ใน dist/
+!dist/

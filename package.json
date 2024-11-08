@@ -42,10 +42,15 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ChakkritGit/pluto-theme-mode"
+    "url": "git+https://github.com/ChakkritGit/pluto-theme-mode.git"
   },
   "homepage": "https://github.com/ChakkritGit/pluto-theme-mode/blob/main/README.md",
   "bugs": {
     "url": "https://github.com/ChakkritGit/pluto-theme-mode/issues"
-  }
+  },
+  "files": [
+    "dist/**/*",
+    "LICENSE.md",
+    "README.md"
+  ]
 }
