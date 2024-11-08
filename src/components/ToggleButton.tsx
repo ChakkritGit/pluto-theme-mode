@@ -106,7 +106,7 @@ export default function ToggleButton({
         ref={iconRef}>
         {storeLocalTheme === 'light' && mode === 'light' ? lightModeIcon : storeLocalTheme === 'dark' && mode === 'dark' ? darkModeIcon : systemModeIcon}
       </IconWrapper>
-      <div data-testid="div-wrapper" style={{ backgroundColor: theme.mode === 'dark' ? 'rgb(34, 34, 34)' : 'rgb(255, 255, 255)' }}></div>
+      {/* <div data-testid="div-wrapper" style={{ backgroundColor: theme.mode === 'dark' ? 'rgb(34, 34, 34)' : 'rgb(255, 255, 255)' }}></div> */}
 
       {openMenu && <WrapperMenu
         $backgroundLight={backgroundColorLight}
