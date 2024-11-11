@@ -1,4 +1,4 @@
-# Pluto Theme Mode [![tag - 1.0.6](https://img.shields.io/badge/tag-1.0.6-1271dc?logo=github)](https://www.npmjs.com/package/pluto-theme-mode?activeTab=versions)
+# Pluto Theme Mode [![tag - 1.0.7](https://img.shields.io/badge/version-1.0.7-1271dc)](https://www.npmjs.com/package/pluto-theme-mode?activeTab=versions)
 
 pluto-theme-mode is a lightweight and versatile theme provider library for React, designed to make switching between light and dark modes smooth and effortless. Built with TypeScript, styled-components, and Context Hook, it supports multiple styling approaches—including inline class, Tailwind CSS, and styled-components—offering flexible options for theme-based designs. Ideal for developers looking to add dark mode functionality seamlessly, pluto-theme-mode provides a modern, intuitive solution for managing theme states and creating customizable user experiences. 🌃🌇
 
@@ -80,12 +80,13 @@ import { ToggleButton } from 'pluto-theme-mode'; // import ToggleButton
 | **menuBorderRadius**     | Border radius for the menu.                   | `16px`, `1rem`                                    | `string`, `undefined` |
 | **fontSize**             | Font size for the text.                       | `16px`, `1.0000em`                                | `string`, `undefined` |
 | **iconSize**             | Font size for icons.                          | `24px`, `1.5em`                                   | `string`, `undefined` |
-| **height**               | Height of the button or menu.                 | `155px`, `max-content`                            | `string`, `undefined` |
-| **width**                | Width of the button or menu.                  | `180px`, `max-content`                            | `string`, `undefined` |
-| **padding**              | Padding inside the button/menu.               | `11.2px`, `0.7rem`                                | `string`, `undefined` |
+| **height**               | Height of the card.                           | `155px`, `max-content`                            | `string`, `undefined` |
+| **width**                | Width of the card.                            | `180px`, `max-content`                            | `string`, `undefined` |
+| **padding**              | Padding inside the card.                      | `11.2px`, `0.7rem`                                | `string`, `undefined` |
 | **gap**                  | Gap between elements inside the menu.         | `8px`, `0.5rem`                                   | `string`, `undefined` |
-| **positionX**            | Horizontal position of the button/menu.       | `20px`                                            | `string`, `undefined` |
-| **positionY**            | Vertical position of the button/menu.         | `40px`                                            | `string`, `undefined` |
+| **transition**           | Transition of the card.                       | `true`, `false`                                   | `bool`                |
+| **positionX**            | Horizontal position of the card.              | `20px`                                            | `string`, `undefined` |
+| **positionY**            | Vertical position of the card.                | `40px`                                            | `string`, `undefined` |
 | **zIndex**               | Z-index for stacking order.                   | `1`, `100`, `Specified`                           | `number`, `undefined` |
 
 🎨 You can decorate it as desired.

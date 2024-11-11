@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components"
+import styled, { css, keyframes } from "styled-components"
 
 export const WrapperSwitch = styled.div`
   position: relative;
@@ -26,7 +26,7 @@ export const IconWrapper = styled.div<{ $active?: string, $iconSize?: string }>`
   }
 `
 
-export const WrapperMenu = styled.div<{ $colorLight?: string, $colorDark?: string, $backgroundLight?: string, $backgroundDark?: string, $borderColorLight?: string, $borderColorDark?: string, $borderRadius?: string, $width?: string, $height?: string, $padding?: string, $gap?: string, $positionX?: string, $positionY?: string, $zIndex?: number }>`
+export const WrapperMenu = styled.div<{ $colorLight?: string, $colorDark?: string, $backgroundLight?: string, $backgroundDark?: string, $borderColorLight?: string, $borderColorDark?: string, $borderRadius?: string, $width?: string, $height?: string, $padding?: string, $gap?: string, $positionX?: string, $positionY?: string, $zIndex?: number, $transition: boolean, $openMenu: boolean }>`
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -43,6 +43,12 @@ export const WrapperMenu = styled.div<{ $colorLight?: string, $colorDark?: strin
   color: ${props => props.theme.mode === 'dark' ? props.$colorLight : props.$colorDark};
   border-radius: ${props => props.$borderRadius};
   z-index: ${props => props.$zIndex};
+  overflow: hidden;
+
+  ${props => props.$transition && css`
+    transition: background-color 0.3s ease-in-out;
+    animation: ${props.$openMenu ? expand : collapse} 0.3s ease forwards;
+  `}
 `
 
 export const ModeOption = styled.div<{ $active?: boolean, $borderRadius?: string, $activeColor?: string, $fontSize?: string, $iconSize?: string }>`
@@ -71,4 +77,30 @@ export const ModeOption = styled.div<{ $active?: boolean, $borderRadius?: string
     background-color: ${props.$activeColor};
     color: white;
   `}
+`
+
+const expand = keyframes`
+  from {
+    opacity: 0;
+    scale: 0.9;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+    transform: translateY(0);
+  }
+`
+
+const collapse = keyframes`
+  from {
+    opacity: 1;
+    scale: 1;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 0;
+    scale: 0.9;
+    transform: translateY(0);
+  }
 `

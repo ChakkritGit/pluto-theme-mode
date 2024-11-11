@@ -24,6 +24,7 @@ export default function ToggleButton({
   width = 'max-content',
   padding = '.7rem',
   gap = '.5rem',
+  transition = true,
   positionX = '20px',
   positionY = '40px',
   zIndex = 100,
@@ -120,9 +121,11 @@ export default function ToggleButton({
         $width={height}
         $padding={padding}
         $gap={gap}
+        $transition={transition}
         $positionX={positionX}
         $positionY={positionY}
         $zIndex={zIndex}
+        $openMenu={openMenu}
         ref={menuRef}>
         <ModeOption
           onClick={() => toggleTheme('light')}

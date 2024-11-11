@@ -169,6 +169,12 @@ interface ToggleButtonProps {
   gap?: string;
 
   /** 
+   * transition the card. Boolean type, values such as 'true', 'false'.
+   * Example: '1rem', '10px', '5%'
+   */
+  transition: boolean;
+
+  /** 
    * Horizontal position of the button/menu. String type, CSS units such as 'px', '%', 'vw', 'em'.
    * Example: '20px', '10%', '5vw'
    */
