@@ -26,7 +26,7 @@ export const IconWrapper = styled.div<{ $active?: string, $iconSize?: string }>`
   }
 `
 
-export const WrapperMenu = styled.div<{ $colorLight?: string, $colorDark?: string, $backgroundLight?: string, $backgroundDark?: string, $borderColorLight?: string, $borderColorDark?: string, $borderRadius?: string, $width?: string, $height?: string, $padding?: string, $gap?: string, $positionX?: string, $positionY?: string, $zIndex?: number, $transition: boolean, $openMenu: boolean }>`
+export const WrapperMenu = styled.div<{ $colorLight?: string, $colorDark?: string, $backgroundLight?: string, $backgroundDark?: string, $borderColorLight?: string, $borderColorDark?: string, $borderRadius?: string, $width?: string, $height?: string, $padding?: string, $gap?: string, $positionX?: string, $positionY?: string, $zIndex?: number, $transition?: boolean, $openMenu?: boolean }>`
   position: absolute;
   display: flex;
   flex-direction: column;
