@@ -1,4 +1,4 @@
-# Pluto Theme Mode [![tag - 1.0.8](https://img.shields.io/badge/version-1.0.8-1271dc)](https://www.npmjs.com/package/pluto-theme-mode?activeTab=versions)
+# Pluto Theme Mode [![tag - 1.0.9](https://img.shields.io/badge/version-1.0.9-1271dc)](https://www.npmjs.com/package/pluto-theme-mode?activeTab=versions)
 
 pluto-theme-mode is a lightweight and versatile theme provider library for React, designed to make switching between light and dark modes smooth and effortless. Built with TypeScript, styled-components, and Context Hook, it supports multiple styling approaches—including inline class, Tailwind CSS, and styled-components—offering flexible options for theme-based designs. Ideal for developers looking to add dark mode functionality seamlessly, pluto-theme-mode provides a modern, intuitive solution for managing theme states and creating customizable user experiences. 🌃🌇
 
@@ -84,7 +84,7 @@ import { ToggleButton } from 'pluto-theme-mode'; // import ToggleButton
 | **width**                | Width of the card.                            | `180px`, `max-content`                            | `string`, `undefined` |
 | **padding**              | Padding inside the card.                      | `11.2px`, `0.7rem`                                | `string`, `undefined` |
 | **gap**                  | Gap between elements inside the menu.         | `8px`, `0.5rem`                                   | `string`, `undefined` |
-| **transition**           | Transition of the card.                       | `true`, `false`                                   | `bool`                |
+| **transition**           | Transition of the card.                       | `true`, `false`                                   | `boolean`             |
 | **positionX**            | Horizontal position of the card.              | `20px`                                            | `string`, `undefined` |
 | **positionY**            | Vertical position of the card.                | `40px`                                            | `string`, `undefined` |
 | **zIndex**               | Z-index for stacking order.                   | `1`, `100`, `Specified`                           | `number`, `undefined` |

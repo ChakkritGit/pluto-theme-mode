@@ -46,7 +46,7 @@ export const WrapperMenu = styled.div<{ $colorLight?: string, $colorDark?: strin
   overflow: hidden;
 
   ${props => props.$transition && css`
-    transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out, border 0.3s ease-in-out;
     animation: ${props.$openMenu ? expand : collapse} 0.3s ease forwards;
   `}
 `
