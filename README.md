@@ -1,4 +1,4 @@
-# Pluto Theme Mode [![tag - 1.0.10](https://img.shields.io/badge/version-1.0.10-1271dc)](https://www.npmjs.com/package/pluto-theme-mode?activeTab=versions)
+# Pluto Theme Mode [![tag - 1.0.10a](https://img.shields.io/badge/version-1.0.10a-1271dc)](https://www.npmjs.com/package/pluto-theme-mode?activeTab=versions)
 
 pluto-theme-mode is a lightweight and versatile theme provider library for React, designed to make switching between light and dark modes smooth and effortless. Built with TypeScript, styled-components, and Context Hook, it supports multiple styling approaches—including inline class, Tailwind CSS, and styled-components—offering flexible options for theme-based designs. Ideal for developers looking to add dark mode functionality seamlessly, pluto-theme-mode provides a modern, intuitive solution for managing theme states and creating customizable user experiences. 🌃🌇
 
@@ -16,6 +16,13 @@ pluto-theme-mode is a lightweight and versatile theme provider library for React
 ![style: styled-components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white) ![style: Tailwind CSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 
 ## Quickstart
+
+<div align="left">
+  <a href="https://github.com/ChakkritGit/pluto-theme-mode/blob/main/.github/workflows/npm-install.gif">
+    <img alt="npm-install" src="https://raw.githubusercontent.com/ChakkritGit/pluto-theme-mode/refs/heads/main/.github/workflows/npm-install.gif" width="193px" height="240px" />
+  </a>
+</div>
+<br>
 
 **1. Install**
 
@@ -146,7 +153,7 @@ const App = () => {
 
   return (
     // wrap Component with ThemeProvider
-    // use theme prop set theme with theme.mode
+    // use theme prop set mode with theme.mode
     <ThemeProvider theme={{ mode: theme.mode }}>
       {Component}
     </ThemeProvider>
