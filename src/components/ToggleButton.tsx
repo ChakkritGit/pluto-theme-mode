@@ -17,7 +17,7 @@ export default function ToggleButton({
   borderColorDark = '#222222',
   colorLight = '#e5e7e9',
   colorDark = '#3b3b3b',
-  activeColor = '#6495ED',
+  activeColor = '#6F90F4',
   cardBorderRadius = '24px',
   menuBorderRadius = '16px',
   height = '155px',

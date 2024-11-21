@@ -82,7 +82,7 @@ import { ToggleButton } from 'pluto-theme-mode'; // import ToggleButton
 | **colorLight**           | Text color for light mode.                    | `#FFF`, `rgb(255,255,255)`, `white`               | `string`, `undefined` |
 | **borderColorDark**      | Border color for dark mode.                   | `#222`, `rgb(34,34,34)`, `grey`                   | `string`, `undefined` |
 | **borderColorLight**     | Border color for light mode.                  | `#222`, `rgb(34,34,34)`, `grey`                   | `string`, `undefined` |
-| **activeColor**          | Color for active state.                       | `#6495ED`, `rgb(100, 149, 237)`, `cornflowerblue` | `string`, `undefined` |
+| **activeColor**          | Color for active state.                       | `#6F90F4`, `rgb(111, 144, 244)`, `cornflowerblue` | `string`, `undefined` |
 | **cardBorderRadius**     | Border radius for the card.                   | `24px`, `1.5rem`                                  | `string`, `undefined` |
 | **menuBorderRadius**     | Border radius for the menu.                   | `16px`, `1rem`                                    | `string`, `undefined` |
 | **fontSize**             | Font size for the text.                       | `16px`, `1.0000em`                                | `string`, `undefined` |
